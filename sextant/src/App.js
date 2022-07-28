@@ -14,20 +14,27 @@ function Banner(){
 
 function Exhibit(){
 return(
-
-  <ul clasName="nav nav-tabs">
-     <h2>Let us show you how is done!</h2>
-  <li className="nav-item">
-    <a className="nav-link active" href="#">Contact us</a>
-  </li>
-  <li className="nav-item">
-    <a className="nav-link" href="#">About Us</a>
-  </li>
-  <li className="nav-item">
-    <a className="nav-link" href="#">Demo</a>
-  </li>
+<nav class="navbar navbar-expand-lg navbar-light bg-info">
+  <a class="navbar-brand" href="#">Let us show you how it's done!</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+    <ul class="navbar-nav">
+      <li class="nav-item active text-white">
+        <a class="nav-link" href="#">Home </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Features</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Pricing</a>
+      </li>
+      
+    </ul>
+  </div>
+</nav>
   
-</ul>
 )
 }
 
