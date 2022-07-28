@@ -3,25 +3,31 @@ import './App.css';
 
 function Banner(){
   return(
-    <div className="bannermain">
-<h1>Your Favorite Site</h1>
+    <div className="jumbotron jumbotron-fluid">
+  <div className="container">
+    <h1 className="display-4">Your Best Website !</h1>
+    <p className="lead">The place where you create magic!</p>
   </div>
+</div>
   )
 }
 
 function Exhibit(){
 return(
-  <div className="container">
-    <div className="header">
-    <h2>Explore us!</h2>
-    </div>
-    <ul>
-      <li> Search </li>
-      <li>Contact</li>
-      <li>Latest news</li>
-    </ul>
 
-  </div>
+  <ul clasName="nav nav-tabs">
+     <h2>Let us show you how is done!</h2>
+  <li className="nav-item">
+    <a className="nav-link active" href="#">Contact us</a>
+  </li>
+  <li className="nav-item">
+    <a className="nav-link" href="#">About Us</a>
+  </li>
+  <li className="nav-item">
+    <a className="nav-link" href="#">Demo</a>
+  </li>
+  
+</ul>
 )
 }
 
