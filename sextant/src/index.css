@@ -11,3 +11,21 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.bannermain h1{
+  font-family: 'Courier New', Courier, monospace;
+  color: blue;
+  border-style: dashed;
+  border-radius: 10%;
+  border-color: gold;
+  margin:10px;
+}
+.container{
+  border-style: double;
+  border-color: aqua;
+}
+.header h2{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color:blue;
+
+
+}
